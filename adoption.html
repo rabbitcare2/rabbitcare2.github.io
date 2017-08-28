@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
 
 <style type="text/css">
 
 	#container {
-		padding: 20px;
+		padding: 20px 30px 30px 20px;
 	}
 
 	#boxnote {
@@ -16,13 +18,22 @@
 		border-radius: 20px;
 		width: 480px;
 		font-family: 'Short Stack', cursive, sans-serif;
-		margin: 20px;
 	}
 
 	#info {
 		font-family: 'Short Stack', cursive, sans-serif;
 		margin: 20px;
 		width: 550px;
+	}
+
+	@media (max-width: 550px) {
+	#boxnote {
+		width: 100%;
+	}
+
+	#info {
+		width: 100%;
+	}
 	}
 
 </style>
