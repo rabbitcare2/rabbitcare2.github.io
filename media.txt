@@ -1,0 +1,38 @@
+
+@media (max-width: 550px) {
+#headercontainer {
+  width: 100%;
+}
+
+#boxnote {
+  color: inherit;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+#q_and_a {
+  float: right;
+  color: inherit;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  width: 70px;
+  border-radius: 15px;
+}
+
+#content {
+    clear: right;
+}
+
+.smallfont {
+    font-size: 12pt;
+}
+
+.largefont {
+    font-size: 16pt;
+}
+
+}

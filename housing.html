@@ -13,57 +13,73 @@
 
 <style type="text/css">
 
-p, ul {
+#nav {
+    width: 650px;
+    padding-bottom: 10px;
+}
+
+.nav_button {
+    font-size: 19pt;
+}
+
+p, ul, a {
     font-family: 'Short Stack', cursive, sans-serif;
 }
 
 #housing {
-    height: 169px;
-    width: 318px;
+    width: 240px;
+    position: relative;
+    top: 7px;
+    left: 50px;
 }
 
 #container {
     padding: 20px;
 }
 
-.boxlarge {
-  color: inherit;
-  border-style: solid;
-  border-color: black;
-  padding: 15px;
-}
-
-
 #headercontainer {
-  width: 550px;
+  width: 750px;
 }
 
-@media (max-width: 550px) {
-#headercontainer {
-  width: 100%;
-}
+#orange_rabbit {
+    width: 90px;
+    float: left;
+    position: relative;
+    top: -20px;
+    left: 10px;
 }
 
 #boxnote {
+  margin: auto;
+  font-family: 'Short Stack', cursive, sans-serif;
+  font-size: 12pt;
   color: inherit;
   border-style: solid;
   border-color: black;
   padding: 5px;
+  padding-left: 20px;
+  width: 550px;
   border-radius: 20px;
-}
-
-#q_and_a {
-  float: right;
-  color: inherit;
-  border-style: solid;
-  border-color: black;
-  padding: 5px;
-  width: 70px;
-  border-radius: 15px;
+  //position: relative;
+  //left: 5px;
+  position: absolute;
+  left: 130px;
 }
 
 #content {
-    clear: right;
+  color: inherit;
+  padding-top: 15px;
+  width: 750px;
+  clear: both;
+  position: relative;
+  top: -70px;
+}
+
+#purple_rabbit_qa {
+    width: 230px;
+    position: relative;
+    top: -34px;
+    left: 224px;
 }
 
 .smallfont {
@@ -74,7 +90,37 @@ p, ul {
     font-size: 16pt;
 }
 
+@media (max-width: 600px) {
 
+.nav_button {
+    font-size: 11pt;
+}
+
+#headercontainer {
+  width: 100%;
+}
+
+#boxnote {
+  margin: auto;
+  width: 260px;
+}
+
+
+#content {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+#purple_rabbit_qa {
+    position: relative;
+    top: 24px;
+    left: 90px;
+}
+
+}
+
+}
 </style>
 
 </head>
@@ -83,25 +129,37 @@ p, ul {
 
 <div id="container">
 
+<div id="nav">
+
+    <a href="." class="btn btn-default nav_button" align="center">Home</a>
+    <a href="food.html" class="btn btn-default nav_button">Food</a>
+    <a href="adoption.html" class="btn btn-default nav_button">Adoption/Fostering</a>
+</div>
+
 <div id="housing">
-    <img id="housing" src="housing.jpg"/>
+    <img id="housing" src="housing.gif"/>
 </div>
 
 <div id="headercontainer">
 
 
-<div id="boxnote">
-    <p class="smallfont">Getting the proper cage and accommodations for your bunny is very important for your bunny's health and well being.  Different types of bunnies have different requirements, and here you will learn what's right for your bunny.</p>
-</div>
-<p/>
 
-<div id="q_and_a">
-    <p class="largefont">Q&A</p>
+<div id="orange_rabbit">
+	<img id="orange_rabbit" src="orange_rabbit.gif"/>
 </div>
+
+<div id="boxnote">
+<p class="smallfont">Getting the proper cage and accommodations for your bunny is very important for your bunny's health and well being.  Different types of bunnies have different requirements, and here you will learn what's right for your bunny.</p>
+</div>
+
+
+<div id="purple_rabbit_qa">
+	<img id="purple_rabbit_qa" src="purple_rabbit_qa.gif"/>
+</div>
+
+
 
 </div> <!-- headercontainer -->
-
-<p/>
 
 <div id="content">
 

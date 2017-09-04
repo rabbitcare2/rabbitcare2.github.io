@@ -3,20 +3,33 @@
 <head>
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="bootstrap.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
 
 
 <style type="text/css">
 
-	#container {
-		padding: 20px 30px 30px 20px;
+	#title {
+	    width: 360px;
+	    padding-left: 100px;
 	}
 
-	#title {
-	    height: 112px;
-	    width: 183px;
-	    padding-left: 150px;
+	p, ul, a {
+	    font-family: 'Short Stack', cursive, sans-serif;
+	}
+
+	#nav {
+	    width: 650px;
+	    padding-bottom: 10px;
+	}
+
+	.nav_button {
+	    font-size: 19pt;
+	}
+
+	#container {
+		padding: 20px 30px 30px 20px;
 	}
 
 	#boxnote {
@@ -35,8 +48,13 @@
 	}
 
 	@media (max-width: 550px) {
+	.nav_button {
+    		font-size: 11pt;
+	}
+
 	#title {
-	    padding-left: 70px;
+	    width: 250px;
+	    padding-left: 90px;
 	}
 	#boxnote {
 		width: 100%;
@@ -45,15 +63,25 @@
 	#info {
 		width: 100%;
 	}
+
 	}
 
 </style>
 </head>
 <body>
 <div id="container">
+
+<div id="nav">
+
+    <a href="." class="btn btn-default nav_button" align="center">Home</a>
+    <a href="housing.html" class="btn btn-default nav_button" align="center">Housing</a>
+    <a href="adoption.html" class="btn btn-default nav_button">Adoption/Fostering</a>
+</div>
+
 	<div>
     		<img id="title" src="food.jpg"/>
 	</div>
+
 	<div id="boxnote">
 		Making sure that your bunny is well fed and that it's on the right diet is one of the most important things you can do for your bunny. What they should be eating and how much varies depending on the size and age of the bunny. This means this page won't be accurate for every bunny, but you can adapt the answer for your bunny's needs.
 	</div>
